@@ -1,0 +1,14 @@
+{
+  "assistant_approval_policy": "pilot",
+  "scope": {
+    "document_changes": true,
+    "non_destructive_scripts": true,
+    "automation_schedules": true,
+    "create_feature_branches": true,
+    "prod_merge": false,
+    "db_rollback": false
+  },
+  "audit_log_path": "memory/logs/approvals/",
+  "applied_by": "agent:main",
+  "applied_at": "2026-03-09T12:11:00+09:00"
+}
